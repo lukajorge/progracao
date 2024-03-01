@@ -1,0 +1,48 @@
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.container {
+    position: relative;
+    display: inline-block; /* Garante que o contêiner se ajuste ao tamanho da imagem */
+}
+
+.texto {
+    position: absolute;
+    top: 50%; /* Coloca o texto no meio verticalmente */
+    left: 50%; /* Coloca o texto no meio horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto no meio da imagem */
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo para melhorar a legibilidade */
+    padding: 10px; /* Espaçamento interno do texto */
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="./img/foto.jpg" alt="logo damercearia">
+<div class="texto">
+   <a href=".mercearia.html">texto sobre a imagem</a>
+  </div>
+</div>
+<div class="myDiv">
+  <h2>This is a heading in a div element</h2>
+  <h3>História da mercearia</h3>
+  <p>This is some text in a div element.</p>
+</div>
+<div class="myDiv">
+    <h2>This is a heading in a div element</h2>
+    <p>This is some text in a div element.</p>
+</div>
+
+<div class="container">
+    <img src="./img/foto.jpg" alt="Imagem">
+    <div class="texto">Texto sobre a imagem</div>
+</div>
+</body>
+</html>
